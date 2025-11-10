@@ -25,10 +25,12 @@ requirements.txt # 套件清單
 1. 安裝必要套件：
    ```bash
    pip install -r requirements.txt
+   
 2.訓練模型：
    bash
    複製程式碼
    python spam_classifier.py
+   
 3.啟動 Streamlit 網頁：
    bash
    複製程式碼
