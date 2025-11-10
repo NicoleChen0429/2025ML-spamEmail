@@ -14,8 +14,6 @@ Chapter 3 - Spam Email 問題範例，並擴充了：
 - 視覺化與互動式網頁展示  
 - CLI 與 Streamlit 雙介面展示方式  
 
----
-
 ## 📂 專案結構
 
 spam_classifier.py # 模型訓練與測試
