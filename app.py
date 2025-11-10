@@ -19,7 +19,7 @@ if st.button("開始判斷"):
     else:
         input_vec = vectorizer.transform([user_input])
         prediction = model.predict(input_vec)[0]
-        if prediction == "spam":
+        if prediction == 1:
             st.error("這封郵件可能是垃圾郵件 🚨")
         else:
             st.success("這封郵件應該是正常郵件 ✅")
